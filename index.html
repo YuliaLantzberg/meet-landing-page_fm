@@ -21,12 +21,13 @@
 		<title>Frontend Mentor | Meet landing page</title>
 	</head>
 	<body>
-		<main>
+		<header>
 			<img
+				class="logo"
 				src="assets/logo.svg"
 				alt="logo-two ovals and word 'meet' besides them"
 			/>
-			<div class="hero">
+			<div class="hero center">
 				<picture class="faces-left">
 					<source
 						media="(min-width: 1200px)"
@@ -41,63 +42,72 @@
 						collaborate across any device.
 					</p>
 					<div class="hero__buttons">
-						<button class="btn">Download v1.3</button>
+						<button class="btn">
+							Download <span class="version">v1.3</span>
+						</button>
 						<button class="btn btn-prpl">What is it?</button>
 					</div>
 				</div>
+				<img
+					class="faces-right"
+					src="assets/desktop/image-hero-right.png"
+					alt=""
+				/>
 			</div>
-			<div class="main">
-				<div class="main__number">
-					<div class="number__vertical-line"></div>
-					<div class="number__text">01</div>
-				</div>
-				<div class="main__images">
-					<img
-						src="assets/desktop/image-woman-in-videocall.jpg"
-						alt="a young white woman on video call on her mac desktop"
-						class="images__1"
-					/>
-					<img
-						src="assets/desktop/image-women-videochatting.jpg"
-						alt="three white elder women are looking into a phone that the woman in the middle is holding"
-						class="images__2"
-					/>
-					<img
-						src="assets/desktop/image-men-in-meeting.jpg"
-						alt="a white man with grey hair holding papers and pen and is in the video meeting with asian young man in glasses"
-						class="images__3"
-					/>
-					<img
-						src="assets/desktop/image-man-texting.jpg"
-						alt="a young black man holding phone with both hands and looking into it "
-						class="images__4"
-					/>
-				</div>
-				<div class="main__text">
-					<h3 class="title-modern-use">Built for modern use</h3>
-					<h2 class="title-smarter-meetings">
-						Smarter meetings, all in one place
-					</h2>
-					<p class="description">
-						Send messages, share files, show your screen, and record your
-						meetings — all in one workspace. Control who can join with
-						invite-only team access, data encryption, and data export.
-					</p>
-				</div>
+		</header>
+		<main class="center">
+			<div class="main__number-1 center">
+				<div class="number__vertical-line"></div>
+				<div class="number__text"><p>01</p></div>
 			</div>
-		</main>
-		<footer>
-			<div class="footer__number">
+			<div class="main__images">
+				<img
+					src="assets/desktop/image-woman-in-videocall.jpg"
+					alt="a young white woman on video call on her mac desktop"
+					class="image"
+				/>
+				<img
+					src="assets/desktop/image-women-videochatting.jpg"
+					alt="three white elder women are looking into a phone that the woman in the middle is holding"
+					class="image"
+				/>
+				<img
+					src="assets/desktop/image-men-in-meeting.jpg"
+					alt="a white man with grey hair holding papers and pen and is in the video meeting with asian young man in glasses"
+					class="image"
+				/>
+				<img
+					src="assets/desktop/image-man-texting.jpg"
+					alt="a young black man holding phone with both hands and looking into it "
+					class="image"
+				/>
+			</div>
+			<div class="main__text center">
+				<h3 class="title-modern-use">Built for modern use</h3>
+				<h2 class="title-smarter-meetings">
+					Smarter meetings, all in one place
+				</h2>
+				<p class="description">
+					Send messages, share files, show your screen, and record your meetings
+					— all in one workspace. Control who can join with invite-only team
+					access, data encryption, and data export.
+				</p>
+			</div>
+			<div class="main__number-2 center">
 				<div class="number__vertical-line"></div>
 				<div class="number__text">02</div>
 			</div>
-			<div class="footer__text">
+		</main>
+		<footer class="center">
+			<div class="footer__text center">
 				<h2 class="footer__title">Experience more together</h2>
 				<p class="footer__description">
 					Stay connected with reliable HD meetings and unlimited one-on-one and
 					group video sessions.
 				</p>
-				<button class="btn btn-prpl">Download v1.3</button>
+				<button class="btn btn-prpl">
+					Download <span class="version-prpl">v1.3</span>
+				</button>
 			</div>
 		</footer>
 	</body>
