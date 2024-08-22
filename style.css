@@ -147,7 +147,7 @@ main {
 	height: 13.6rem;
 	flex-direction: column;
 	z-index: 1000;
-	margin-top: 6.4rem;
+	margin-top: 7rem;
 }
 .main__number-2 .number__text {
 	background-color: #fff;
