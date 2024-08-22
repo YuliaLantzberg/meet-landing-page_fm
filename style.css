@@ -20,12 +20,9 @@ html {
 
 body {
 	font-family: "Red Hat Display", sans-serif;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	line-height: 150%;
 }
 
 /* ** Util ** */
@@ -48,13 +45,10 @@ header {
 }
 
 .hero {
-	max-width: 100vw;
 	text-align: center;
 	flex-direction: column;
 }
-picture {
-	width: 100%;
-}
+
 .hero img {
 	width: 43.3rem;
 	margin-bottom: 4.8rem;
@@ -78,8 +72,6 @@ main {
 .hero__text p {
 	margin: 2.4rem auto;
 	color: var(--slate-600);
-	font-size: 1.6rem;
-	line-height: 150%;
 }
 
 .hero__buttons {
@@ -136,9 +128,7 @@ main {
 
 .description {
 	margin-top: 3.2rem;
-	font-size: 1.6rem;
 	color: var(--cyan-600);
-	line-height: 150%;
 }
 .main__number-2 {
 	width: 5.6rem;
@@ -181,8 +171,6 @@ footer {
 .footer__description {
 	margin: 2.4rem 0;
 	color: #fff;
-	font-size: 1.6rem;
-	line-height: 150%;
 }
 /* ** Buttons styles ** */
 .btn {
@@ -191,8 +179,6 @@ footer {
 	padding: 1.6rem 4rem;
 	border: none;
 	background-color: var(--cyan-600);
-	font-size: 1.6rem;
-	line-height: 150%;
 	color: #fff;
 	font-weight: 700;
 }
@@ -221,8 +207,6 @@ footer {
 	border-radius: 50%;
 	border: solid 0.1rem var(--slate-300);
 	color: var(--slate-600);
-	font-size: 1.6rem;
-	line-height: 150%;
 	font-weight: 900;
 	text-align: center;
 	display: grid;
@@ -289,11 +273,11 @@ footer {
 	}
 }
 @media (min-width: 1200px) {
+	body {
+		font-size: 1.8rem;
+	}
 	.hero {
 		flex-direction: row;
-	}
-	picture {
-		width: auto;
 	}
 	.hero img {
 		width: 39.4rem;
@@ -303,14 +287,10 @@ footer {
 	}
 	.hero__text {
 		max-width: 44.83rem;
-		margin: auto 11.2rem;
+		margin: auto 10rem;
 	}
 	.hero__text h1 {
 		font-size: 6.4rem;
-	}
-
-	.hero__text p {
-		font-size: 1.8rem;
 	}
 
 	.main-images {
@@ -326,14 +306,11 @@ footer {
 	}
 
 	.title-modern-use {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 	}
 
 	.title-smarter-meetings {
 		font-size: 4rem;
-	}
-	.description {
-		font-size: 1.8rem;
 	}
 
 	footer {
@@ -363,11 +340,14 @@ footer {
 	}
 
 	.footer__description {
-		font-size: 1.8rem;
 		max-width: 35.5rem;
 		margin: 0;
 	}
 	footer .btn {
 		margin-left: 5rem;
+	}
+
+	.btn {
+		font-size: 1.6rem;
 	}
 }
