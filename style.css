@@ -7,6 +7,7 @@
 	--cyan-300: #8fe3f9;
 	--purple-600: #855fb1;
 	--purple-300: #d9b8ff;
+	--purple-hover: #b18bdd;
 }
 * {
 	margin: 0;
@@ -181,10 +182,21 @@ footer {
 	background-color: var(--cyan-600);
 	color: #fff;
 	font-weight: 700;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.btn:hover {
+	background-color: var(--cyan-300);
 }
 
 .btn-prpl {
 	background-color: var(--purple-600);
+	transition: background-color 0.3s;
+}
+
+.btn-prpl:hover {
+	background-color: var(--purple-hover);
 }
 
 .version {
