@@ -293,7 +293,6 @@ footer {
 				rgba(77, 150, 168, 0.9)
 			),
 			url("/assets/tablet/image-footer.jpg");
-		min-height: 50.4rem;
 		justify-content: flex-start;
 	}
 
@@ -304,6 +303,9 @@ footer {
 @media (min-width: 1200px) {
 	body {
 		font-size: 1.8rem;
+	}
+	.header {
+		margin-top: 80rem;
 	}
 	.hero {
 		flex-direction: row;
@@ -348,7 +350,6 @@ footer {
 	}
 
 	footer.footer {
-		max-height: 35.8rem;
 		max-width: 100%;
 		background: linear-gradient(
 				0deg,
