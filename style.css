@@ -237,7 +237,7 @@ footer {
 
 @media (min-width: 768px) {
 	.hero #hero-small {
-		width: 82rem;
+		width: 76rem;
 		margin-bottom: 7.2rem;
 	}
 
@@ -264,6 +264,10 @@ footer {
 		gap: 2.4rem;
 	}
 
+	.main__number-2 {
+		margin-bottom: -2.5rem;
+	}
+
 	.image {
 		width: 22%;
 	}
@@ -282,13 +286,15 @@ footer {
 		font-size: 3.6rem;
 	}
 
-	footer {
+	footer.footer {
 		background: linear-gradient(
 				0deg,
 				rgba(77, 150, 168, 0.9),
 				rgba(77, 150, 168, 0.9)
 			),
 			url("/assets/tablet/image-footer.jpg");
+		min-height: 50.4rem;
+		justify-content: flex-start;
 	}
 
 	.footer__text {
@@ -341,7 +347,7 @@ footer {
 		font-size: 4rem;
 	}
 
-	footer {
+	footer.footer {
 		max-height: 35.8rem;
 		max-width: 100%;
 		background: linear-gradient(
@@ -350,6 +356,7 @@ footer {
 				rgba(77, 150, 168, 0.9)
 			),
 			url("assets/desktop/image-footer.jpg");
+		background-size: cover;
 		padding: 11.2rem 8rem;
 	}
 
