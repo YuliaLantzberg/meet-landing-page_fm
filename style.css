@@ -164,7 +164,6 @@ footer {
 		),
 		url("/assets/mobile/image-footer.jpg");
 	background-size: cover;
-	position: fixed;
 }
 
 .footer__text {
